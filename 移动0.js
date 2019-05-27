@@ -22,15 +22,31 @@
 //   }
 //   return nums
 // }
-var moveZeroes = function(nums) {
-  let p = 0
-  for(let i = 0; i < nums.length; i++) {
-    nums[i] !== 0 && (nums[p++] = nums[i])
+// var moveZeroes = function(nums) {
+//   let p = 0
+//   for(let i = 0; i < nums.length; i++) {
+//     nums[i] !== 0 && (nums[p++] = nums[i])
+//   }
+//   while(p < nums.length) {
+//     nums[p++] = 0
+//   }
+//   return nums
+// }
+// 思路
+// 利用j指针来跟前面i指针指向的0作交换
+function moveZeroes(arr) {
+  let i = 0
+  let j = 0
+  while (j < arr.length) {
+    if (arr[i] !== 0) {
+      i++
+    } else if (arr[j] !== 0) {
+      [arr[i], arr[j]] = [arr[j], arr[i]]
+      i++
+    }
+    j++
   }
-  while(p < nums.length) {
-    nums[p++] = 0
-  }
-  return nums
+  return arr
 }
 let arr = [0,0,1]
 console.log(moveZeroes(arr))
