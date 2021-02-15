@@ -1,4 +1,4 @@
-数组专题第10页
+数组专题第11页
 
 https://leetcode-cn.com/problems/min-cost-climbing-stairs/
 
@@ -8,6 +8,8 @@ https://leetcode-cn.com/problems/pascals-triangle-ii/
 
 https://leetcode-cn.com/problems/add-to-array-form-of-integer/
 
+https://leetcode-cn.com/problems/maximum-subarray/
+
 
 总结情景
     元素是否完全相同
@@ -15,6 +17,8 @@ https://leetcode-cn.com/problems/add-to-array-form-of-integer/
         https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/submissions/
 
 动态规划
+
+https://leetcode-cn.com/problems/minimum-value-to-get-positive-step-by-step-sum/solution/minimum-value-to-get-positive-step-by-step-sum-by-/
 
 https://leetcode-cn.com/problems/min-cost-climbing-stairs/submissions/
 
