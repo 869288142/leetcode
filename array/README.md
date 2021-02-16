@@ -1,4 +1,4 @@
-数组专题第11页
+数组专题第12页
 
 https://leetcode-cn.com/problems/min-cost-climbing-stairs/
 
