@@ -20,8 +20,9 @@ var twoSum = function(nums, target) {
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
- * 枚举判断
- * 时间复杂度On
+ * 先记录差值和其下标，再查找一次数值是否存在于差值之中
+ * edgeCASE: 相等元素构成target
+ * 时间复杂度O2n
  * 空间复杂度On
  */
 var twoSum = function(nums = [3,3], target = 6) {
@@ -30,8 +31,8 @@ var twoSum = function(nums = [3,3], target = 6) {
         map.set( target - nums[i], i)
     }
     for(let i = 0; i < nums.length; i++) {
-        if(typeof map.get(nums[i]) !== 'undefined'  && typeof map.get(target - nums[i]) !== 'undefined' && map.get(nums[i]) !== map.get(target - nums[i])) {
-            return [map.get(nums[i]) , map.get(target - nums[i])]
+        if(map.get(nums[i]) && map.get(nums[i]) !== i) {
+            return [map.get(nums[i]) , i]
         }
     }
 };
@@ -54,4 +55,4 @@ var twoSum = function(nums = [3,3], target = 6) {
         map.set(nums[i], i)
     }
 };
-console.log(twoSum());
+// console.log(twoSum());

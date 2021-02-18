@@ -1,4 +1,4 @@
-数组专题第13页
+数组专题第14页
 
 https://leetcode-cn.com/problems/min-cost-climbing-stairs/
 https://leetcode-cn.com/problems/x-of-a-kind-in-a-deck-of-cards/solution/qia-pai-fen-zu-by-leetcode-solution/
@@ -21,6 +21,8 @@ https://leetcode-cn.com/problems/maximum-subarray/
 https://leetcode-cn.com/problems/minimum-value-to-get-positive-step-by-step-sum/solution/minimum-value-to-get-positive-step-by-step-sum-by-/
 
 https://leetcode-cn.com/problems/min-cost-climbing-stairs/submissions/
+
+https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
 
 线段树
 
@@ -47,3 +49,7 @@ https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/so
 两数之和
 
 https://leetcode-cn.com/problems/two-sum/submissions/
+
+滑动窗口
+
+https://leetcode-cn.com/problems/maximum-average-subarray-i/
