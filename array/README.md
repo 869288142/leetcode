@@ -24,6 +24,10 @@ https://leetcode-cn.com/problems/min-cost-climbing-stairs/submissions/
 
 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
 
+https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/solution/gu-piao-wen-ti-python3-c-by-z1m/
+
+https://leetcode-cn.com/problems/find-the-highest-altitude/solution/1732-zhao-dao-zui-gao-hai-ba-by-dine-awv5/
+
 线段树
 
 https://leetcode-cn.com/problems/contiguous-sequence-lcci/submissions/
