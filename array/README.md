@@ -38,7 +38,6 @@ https://leetcode-cn.com/problems/contiguous-sequence-lcci/submissions/
 
 https://leetcode-cn.com/problems/sorted-merge-lcci/submissions/
 
-数组元素后移
 
 计算最大次大
 https://leetcode-cn.com/problems/maximum-product-of-two-elements-in-an-array/
@@ -50,6 +49,9 @@ https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/submissions/
 
 https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/solution/mian-shi-ti-53-i-zai-pai-xu-shu-zu-zhong-cha-zha-5/
 
+https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/
+
+
 两数之和
 
 https://leetcode-cn.com/problems/two-sum/submissions/
@@ -57,3 +59,31 @@ https://leetcode-cn.com/problems/two-sum/submissions/
 滑动窗口
 
 https://leetcode-cn.com/problems/maximum-average-subarray-i/
+
+
+
+
+贪心算法
+
+https://leetcode-cn.com/problems/replace-elements-with-greatest-element-on-right-side/submissions/
+
+
+
+
+排序
+    冒泡排序
+        选择排序：在冒泡基础上将交换次数从On2降低到了On
+    插入排序
+        希尔排序：在插入排序基础优化元素移动次数频繁的问题
+    归并排序
+    快速排序
+    计数排序
+        桶排序：
+    基数排序
+        LSD
+        MSD
+    堆排序
+    tim sort
+        插入排序         
+        归并排序
+    
