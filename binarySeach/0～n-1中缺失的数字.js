@@ -24,7 +24,7 @@ var missingNumber = function(nums) {
     while(left <= right) {
         let mid =  left + ((right - left) >> 1) ;
         if(nums[mid] === mid){
-            left = mid + 1;
+            left = mid + 1; 
         }else {
             right = mid - 1;
         }  
