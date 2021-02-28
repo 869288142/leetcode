@@ -45,12 +45,6 @@ https://leetcode-cn.com/problems/maximum-product-of-two-elements-in-an-array/
 前缀整除
 https://leetcode-cn.com/problems/binary-prefix-divisible-by-5/submissions/
 
-二分查找
-
-https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/solution/mian-shi-ti-53-i-zai-pai-xu-shu-zu-zhong-cha-zha-5/
-
-https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/
-
 
 两数之和
 
@@ -86,4 +80,3 @@ https://leetcode-cn.com/problems/replace-elements-with-greatest-element-on-right
     tim sort
         插入排序         
         归并排序
-
