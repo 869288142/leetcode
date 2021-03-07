@@ -43,16 +43,16 @@ var kthToLast = function(head, k) {
  * 先使用一个指针走k步，
  * 再使用另外一个指针一起走，如果前面的指针到末尾，那么后面的指针就是结果
  */
-var kthToLast = function(head, k) {
-   let fastPos = head
-   let secondPos = head
-   while(k-- > 0) {
-        fastPos = head.next
-   }
+var getKthFromEnd = function(head, k) {
+    let fast = head
+    let low = head
+    while(k-- > 0) {
+        fast = fast.next
+    }
 
-   while(secondPos !== null) {
-        fastPos = head.next
-        secondPos = head.next
-   }
-   return secondPos.val
+    while(fast !== null) {
+        fast = fast.next
+        low = low.next
+    }
+    return low
 };
