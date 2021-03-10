@@ -14,3 +14,31 @@ var inorderTraversal = function(root, ret = []) {
     
     return ret
 };
+
+var inorderTraversal = function(root, ret = []) {
+
+    if(!root) {
+        return ret
+    }
+
+    let stack = []
+    
+    let cur = root
+
+    while(stack.length !== 0 || cur !== null) {
+        
+        while(cur !== null) {
+            stack.push(cur)
+            cur = cur.left
+        }
+
+        let node = stack.pop()
+        ret.push(node.val)
+
+        if(node.right !== null) {
+            cur = node.right
+        }
+    }
+
+    return ret
+};
