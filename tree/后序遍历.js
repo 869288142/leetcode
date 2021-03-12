@@ -14,3 +14,29 @@ var postorderTraversal = function(root, ret = []) {
     
     return ret
 };
+
+var postorderTraversal = function(root, ret = []) {
+    if (root == null) {
+        return ret;
+    }
+    let stack1 = []
+    let stack2 = [];
+
+    stack1.push(root);
+
+    while (!(stack1.length === 0)) {
+        let node = stack1.pop();
+        stack2.push(node.val);
+        if (node.left !== null) {
+            stack1.push(node.left);
+        }
+        if (node.right !== null) {
+            stack1.push(node.right);
+        }
+    }
+    while (!(stack2.length === 0)) {
+        ret.push(stack2.pop())
+    }
+
+    return ret
+};
